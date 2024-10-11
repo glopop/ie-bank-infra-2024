@@ -43,7 +43,7 @@ jobs:
 
       # Deploy Bicep file
     - name: deploy
-      uses: azure/arm-deploy@v3
+      uses: azure/arm-deploy@v2
       with:
         subscriptionId: ${{ env.SUBSCRIPTION_ID_DEV }}
         resourceGroupName: ${{ env.RESOURCE_GROUP_DEV }}
