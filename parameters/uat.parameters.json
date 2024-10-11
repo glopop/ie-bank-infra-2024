@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "environmentType": {
+            "value": "nonprod"
+        },
+        "postgreSQLServerName": {
+            "value": "gparaschivoiu-dbsrv-uat"
+        },
+        "postgreSQLDatabaseName": {
+            "value": "gparaschivoiu-db-uat"
+        },
+        "appServicePlanName": {
+            "value": "gparaschivoiu-asp-uat"
+        },
+        "appServiceAPIAppName": {
+            "value": "gparaschivoiu-be-uat"
+        },
+        "appServiceAppName": {
+            "value": "gparaschivoiu-fe-uat"
+        },
+        "location": {
+            "value": "North Europe"
+        }
+    }
+}
