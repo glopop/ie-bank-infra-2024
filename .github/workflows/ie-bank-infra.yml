@@ -10,6 +10,9 @@ on:
         - '*'
       paths-ignore:
         - 'scripts/**'
+      branches: '*'
+      paths-ignore:
+        - 'scripts/**'
 
 env:
   RESOURCE_GROUP_UAT: BCSAI2024-DEVOPS-STUDENTS-A-UAT
