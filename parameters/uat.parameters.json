@@ -6,19 +6,19 @@
             "value": "nonprod"
         },
         "postgreSQLServerName": {
-            "value": "gparaschivoiu-dbsrv-dev"
+            "value": "gparaschivoiu-dbsrv-uat"
         },
         "postgreSQLDatabaseName": {
-            "value": "gparaschivoiu-db-dev"
+            "value": "gparaschivoiu-db-uat"
         },
         "appServicePlanName": {
-            "value": "gparaschivoiu-asp-dev"
+            "value": "gparaschivoiu-asp-uat"
         },
         "appServiceAPIAppName": {
-            "value": "gparaschivoiu-be-dev"
+            "value": "gparaschivoiu-be-uat"
         },
         "appServiceAppName": {
-            "value": "gparaschivoiu-fe-dev"
+            "value": "gparaschivoiu-fe-uat"
         },
         "location": {
             "value": "North Europe"
